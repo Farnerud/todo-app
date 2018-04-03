@@ -1,7 +1,87 @@
+/*** Reset ***/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(150deg, #8B6CFF, #3413DC);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	font-family: 'Roboto', Arial, sans-serif;
+
+}
+
 #container {
     width: 360px;
-    margin: 0 auto;
-    border: 2px solid #ccc;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, .1);
+}
+
+h1 {
+	margin: 0;
+	padding: 10px 15px;
+	background-color: #003DC9;
+	color: #fff;
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+input {
+	width: 100%;
+	border: 0;
+	margin: 0;
+	padding: 1em;
+	font-size: 19px;
+	font-weight: 500;
+	color: #4367BB;
+	background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+	color: #8E8E8E;
+}
+::-moz-input-placeholder {
+	color: #8E8E8E;
+}
+:-moz-input-placeholder {
+	color: #8E8E8E;
+}
+:-ms-input-placeholder {
+	color: #8E8E8E;
+}
+
+input:focus {
+	outline: none;
+	background-color: #fff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style-type: none;
+}
+
+ul li {
+	margin: 0;
+	padding: .5em 1em;
+	font-size: 16px;
+	font-weight: 500;
+	color: #676767;
+	width: 100%;
+}
+
+ul li:nth-child(odd) {
+	background-color: #fff;
+}
+
+ul li:nth-child(even) {
+	background-color: transparent;
 }
 
 .completed-js {
