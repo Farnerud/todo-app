@@ -1,4 +1,4 @@
-//Toggle the css class completed in all the li's
+//Toggle the css class "completed" in all the li's
 $("ul").on("click", "li", function(e) {
     $(this).toggleClass("completed-js");
 });
@@ -18,6 +18,6 @@ $("input[type='text'").keypress(function(e){
 		var textInput = $(this).val();
 		$(this).val("");
 		//append the text from the input to a new li inside the ul
-		$("ul").append("<li><span>X</span> " + textInput + "</li>");
+		$("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " + textInput + "</li>");
 	}
 });
