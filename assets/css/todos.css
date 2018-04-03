@@ -52,17 +52,13 @@ input {
 }
 
 ::-webkit-input-placeholder {
-	color: #8E8E8E;
-}
+	color: #8E8E8E;}
 ::-moz-input-placeholder {
-	color: #8E8E8E;
-}
+	color: #8E8E8E;}
 :-moz-input-placeholder {
-	color: #8E8E8E;
-}
+	color: #8E8E8E;}
 :-ms-input-placeholder {
-	color: #8E8E8E;
-}
+	color: #8E8E8E;}
 
 input:focus {
 	outline: none;
@@ -82,11 +78,6 @@ span {
 	transition: all .2s ease-out;
 }
 
-li:hover span {
-	width: 40px;
-	color: #fff;
-}
-
 ul {
 	margin: 0;
 	padding: 0;
@@ -102,14 +93,18 @@ ul li {
 	width: 100%;
 }
 
-ul li:nth-child(odd) {
-	background-color: #fff;
+li:hover span {
+	width: 40px;
+	color: #fff;
 }
+
+ul li:nth-child(odd) {
+	background-color: #fff;}
 
 ul li:nth-child(even) {
-	background-color: transparent;
-}
+	background-color: transparent;}
 
+/** Javascript specified classes **/
 .completed-js {
     color: #ccc;
     text-decoration: line-through;

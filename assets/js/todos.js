@@ -21,3 +21,8 @@ $("input[type='text'").keypress(function(e){
 		$("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " + textInput + "</li>");
 	}
 });
+
+//functionality to hide and unhide the input form
+$("i.fa-edit").on("click", function(){
+	$("input[type='text'").fadeToggle();
+});
