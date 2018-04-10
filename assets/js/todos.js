@@ -26,3 +26,4 @@ $("input[type='text'").keypress(function(e){
 $("i.fa-edit").on("click", function(){
 	$("input[type='text'").fadeToggle();
 });
+
