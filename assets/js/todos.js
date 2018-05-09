@@ -5,7 +5,7 @@ $("ul").on("click", "li", function(e) {
 
 //fade out and remove the lis when click in the X
 $("ul").on("click", "span", function(e){
-	$(this).parent().fadeOut(500, function() {
+	$(this).parent().fadeOut(300, function() {
 		$(this).remove();
 	});
 	e.stopPropagation();
@@ -26,4 +26,3 @@ $("input[type='text'").keypress(function(e){
 $("i.fa-edit").on("click", function(){
 	$("input[type='text'").fadeToggle();
 });
-
